@@ -1,12 +1,12 @@
 body {
     background-color: #ffe2f3;
-    color: #c6a8ff;
+    color: #820de9;
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 header {
-    background-color: #820de9;
+    background-color: #bf77fd;
     text-align: center;
     padding: 40px 20px;
 }
@@ -20,4 +20,17 @@ header h1 {
 header p {
     color: white;
     font-size: 18px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+h2 {
+    color: #8d4fc4;
+    font-size: 30px;
+    border-bottom: 3px solid #f3b6d2;
+    padding-bottom: 8px;
 }
