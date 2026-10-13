@@ -41,6 +41,9 @@ Finally, I modified the GitHub Actions workflow so it installs the required depe
 ![Fifth draft](https://raw.githubusercontent.com/kdogz9/PortfolioWebsite/refs/heads/main/Screenshot%202026-10-13%20141414.png)
 *Figure 5. Created 3 seperate skill cards and chnaged the project card background to be a gradient but I didn't stick with this as it felt like it was competing with the heading. Added in a contact section as well.*
 
+![Final website GIF](https://raw.githubusercontent.com/kdogz9/PortfolioWebsite/refs/heads/main/WebsiteVideo%20(1).gif)
+
+*Figure 6. This is the final website. It has links to my GitHub, Itch page and also a button that sets up an email to my adress.*
 ## Skills and Knowledge Gained (128 words)
 
 Completing this project has taught me a number of new skills. I now feel more confident coding in CSS after learning how to use padding, margins, grids, hover states and media queries to make the website responsive on different screen sizes. 
