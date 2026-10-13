@@ -1,3 +1,7 @@
+/* ------------------------------
+   PAGE
+------------------------------ */
+
 body {
     background-color: #ffd6ee;
     color: #ff4cae;
@@ -5,10 +9,32 @@ body {
     margin: 0;
 }
 
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+
+/* ------------------------------
+   HEADER
+------------------------------ */
+
 header {
-    background: linear-gradient(135deg, #bf77fd, #e6a4ff, #ffb6df);
+    background: linear-gradient(
+        135deg,
+        #bf77fd,
+        #e6a4ff,
+        #ffb6df
+    );
+
     text-align: center;
-    padding: 70px 20px;
+    padding: 70px 20px 35px;
     border-bottom: 5px solid #f3b6d2;
 }
 
@@ -23,7 +49,9 @@ header h1 {
     color: white;
     font-size: 58px;
     margin: 0 0 12px 0;
-    text-shadow: 3px 3px 0 #8d4fc4;
+
+    text-shadow:
+        3px 3px 0 #8d4fc4;
 }
 
 header p {
@@ -32,75 +60,252 @@ header p {
     font-weight: 600;
 }
 
-p {
-    font-size: 16px;
-    line-height: 1.5;
+.sparkle-line {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 8px;
 }
 
-main {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 30px 20px;
+
+/* ------------------------------
+   NAVIGATION
+------------------------------ */
+
+nav {
+    margin-top: 25px;
 }
+
+nav a {
+    display: inline-block;
+
+    background-color: white;
+    color: #8d4fc4;
+
+    text-decoration: none;
+    font-weight: 700;
+
+    padding: 9px 18px;
+    margin: 5px;
+
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background-color: #ffd6ee;
+}
+
+
+/* ------------------------------
+   SECTION HEADINGS
+------------------------------ */
 
 h2 {
     color: #8d4fc4;
     font-size: 30px;
+
     border-bottom: 3px solid #f3b6d2;
+
     padding-bottom: 8px;
+    margin-top: 35px;
 }
+
+
+/* ------------------------------
+   SKILLS
+------------------------------ */
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 12px;
+
+    margin-top: 20px;
+}
+
+.skills-list span {
+    background-color: white;
+
+    color: #8d4fc4;
+
+    border: 2px solid #f3b6d2;
+
+    border-radius: 20px;
+
+    padding: 8px 16px;
+
+    font-weight: 700;
+}
+
+
+/* ------------------------------
+   MAIN BUTTONS
+------------------------------ */
+
+.main-button {
+    display: inline-block;
+
+    background-color: #8d4fc4;
+    color: white;
+
+    text-decoration: none;
+
+    padding: 12px 22px;
+
+    border-radius: 12px;
+
+    margin-top: 15px;
+
+    font-weight: 700;
+}
+
+.main-button:hover {
+    background-color: #b76ee8;
+}
+
+
+/* ------------------------------
+   PROJECT PREVIEW
+------------------------------ */
+
+.projects-preview {
+    margin-top: 35px;
+}
+
+
+/* ------------------------------
+   PROJECT GRID
+------------------------------ */
 
 .project-grid {
-    display: flex;
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
     gap: 25px;
-    align-items: stretch;
+
+    margin-top: 30px;
 }
 
+
+/* ------------------------------
+   PROJECT CARDS
+------------------------------ */
+
 .project-card {
-    flex: 1;
     background-color: white;
+
     border: 2px solid #f3b6d2;
+
     border-radius: 18px;
+
     padding: 20px;
 }
 
 .project-card h3 {
     text-align: center;
+
     color: #6f2da8;
+
     font-size: 24px;
 }
 
 .project-card img {
     width: 100%;
+
     max-width: 300px;
+
     height: auto;
+
     display: block;
+
     margin: 0 auto;
+
     border: 4px solid #f3b6d2;
+
     border-radius: 14px;
 }
 
-.project-card a {
-    display: inline-block;
-    background-color: #8d4fc4;
-    color: white;
-    text-decoration: none;
-    padding: 10px 18px;
-    border-radius: 10px;
-    margin-top: 10px;
+
+/* ------------------------------
+   PROJECT BUTTONS
+------------------------------ */
+
+.project-buttons {
+    display: flex;
+
+    gap: 10px;
+
+    flex-wrap: wrap;
+
+    margin-top: 15px;
 }
 
-.project-card a:hover {
+.project-buttons a {
+    display: inline-block;
+
+    background-color: #8d4fc4;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 10px 18px;
+
+    border-radius: 10px;
+}
+
+.project-buttons a:hover {
     background-color: #b76ee8;
 }
 
+
+/* ------------------------------
+   PLACEHOLDER PROJECT IMAGE
+------------------------------ */
+
+.project-placeholder {
+    height: 250px;
+
+    max-width: 300px;
+
+    margin: 0 auto;
+
+    background-color: #ffe6f4;
+
+    border: 4px solid #f3b6d2;
+
+    border-radius: 14px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: #8d4fc4;
+
+    font-weight: 700;
+}
+
+
+/* ------------------------------
+   CONTACT
+------------------------------ */
+
 .contact-section {
     background-color: white;
+
     border: 2px solid #f3b6d2;
+
     border-radius: 18px;
+
     padding: 25px;
+
     margin-top: 35px;
     margin-bottom: 30px;
+
     text-align: center;
 }
 
@@ -110,18 +315,27 @@ h2 {
 
 .contact-links {
     display: flex;
+
     justify-content: center;
+
     gap: 15px;
+
     margin-top: 20px;
+
     flex-wrap: wrap;
 }
 
 .contact-links a {
     display: inline-block;
+
     background-color: #8d4fc4;
+
     color: white;
+
     text-decoration: none;
+
     padding: 10px 18px;
+
     border-radius: 10px;
 }
 
@@ -129,19 +343,38 @@ h2 {
     background-color: #b76ee8;
 }
 
+
+/* ------------------------------
+   BACK HOME
+------------------------------ */
+
+.back-home {
+    text-align: center;
+
+    margin: 40px 0;
+}
+
+
+/* ------------------------------
+   MOBILE
+------------------------------ */
+
 @media (max-width: 700px) {
+
+    header h1 {
+        font-size: 42px;
+    }
+
     .project-grid {
-        flex-direction: column;
+        grid-template-columns: 1fr;
     }
 
     .contact-links {
         flex-direction: column;
         align-items: center;
     }
-}
 
-.sparkle-line {
-    color: white;
-    font-size: 22px;
-    margin-bottom: 8px;
+    .skills-list {
+        justify-content: center;
+    }
 }
