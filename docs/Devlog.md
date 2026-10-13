@@ -25,7 +25,22 @@ I also created a .gitignore file for `node_modules` and `generated-docs` because
 Finally, I modified the GitHub Actions workflow so it installs the required dependencies and generates the documentation automatically before deploying the website.
 
 ## Process of website 
-![Final game GIF]()
+![First draft](https://raw.githubusercontent.com/kdogz9/PortfolioWebsite/refs/heads/main/Screenshot%202026-10-13%20131525.png)
+*Figure 1. How the website originally looked. I didnt like the sizing of the image and the text colour was too light against the background*
+
+![Second draft](https://raw.githubusercontent.com/kdogz9/PortfolioWebsite/refs/heads/main/Screenshot%202026-10-13%20133558.png)
+*Figure 2. I changed the font, made the text a bolder colour and added a white box and border for the project along with downsizing the image size.*
+
+![Third draft](https://raw.githubusercontent.com/kdogz9/PortfolioWebsite/refs/heads/main/Screenshot%202026-10-13%20134439.png)
+
+*Figure 3. I changed the font again as the last one wasnt as readable and changed the background to a lighter pink.*
+
+![Fourth draft](https://raw.githubusercontent.com/kdogz9/PortfolioWebsite/refs/heads/main/Screenshot%202026-10-13%20140216.png)
+*figure 4. Added in a skills section as I wanted employers to really see what I'm capable of. Didn't like how it all looked the same and I didn't like the bubbles for the skills.*
+
+![Fifth draft](https://raw.githubusercontent.com/kdogz9/PortfolioWebsite/refs/heads/main/Screenshot%202026-10-13%20141414.png)
+*Figure 5. Created 3 seperate skill cards and chnaged the project card background to be a gradient but I didn't stick with this as it felt like it was competing with the heading. Added in a contact section as well.*
+
 ## Skills and Knowledge Gained (128 words)
 
 Completing this project has taught me a number of new skills. I now feel more confident coding in CSS after learning how to use padding, margins, grids, hover states and media queries to make the website responsive on different screen sizes. 
